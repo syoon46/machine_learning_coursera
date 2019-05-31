@@ -1,2 +1,2 @@
-# machine_learning_coursera
+# Machine Learning Coursera
 Machine Learning Repository
