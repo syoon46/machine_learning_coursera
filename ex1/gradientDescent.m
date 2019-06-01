@@ -23,9 +23,11 @@ for iter = 1:num_iters
 
     gradient = (1/m)* (X'*error);
 
+    %disp(computeCost(X,y,theta));
+
     theta = theta - alpha*gradient;
 
-    %disp(num_iters, ": Iteration", theta);
+    %disp(theta);
 
     % ============================================================
 
